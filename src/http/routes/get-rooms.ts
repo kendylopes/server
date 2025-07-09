@@ -1,4 +1,5 @@
-import type { FastifyPluginAsyncZod, FastifyPluginCallbackZod } from "fastify-type-provider-zod"
+
+import type { FastifyPluginCallbackZod } from "fastify-type-provider-zod"
 import { schema } from "../../db/schema/index.ts"
 import { db } from "../../db/connections.ts"
 
