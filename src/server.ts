@@ -1,3 +1,4 @@
+// biome-ignore assist/source/organizeImports: <explanation>
 import { fastify } from 'fastify';
 import {
   serializerCompiler,
